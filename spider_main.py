@@ -52,7 +52,7 @@ class SpiderMain(object):
                 # 收集爬取数据
 				self.outputer.collect_data(new_data)
 				i +=1
-				print('successfully carw %s' %(wordlist[i][0]))
+				print('successfully craw %s' %(wordlist[i][0]))
 			except :
 				print('craw failed')
 				i+=1
